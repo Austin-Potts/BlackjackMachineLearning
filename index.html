@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ML BlackJack!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+	<link href="style/style.css" rel="stylesheet">
+</head>
+
+<body>
+		
+	<!-- check latest versions of above -->
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #8aa6a2;">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="img/cards.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">The Team</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!--- Image Slider -->
+	<div id="slides" class="carousel slide" data-rider="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/background.png">
+				<div class="carousel-caption">
+					<h3>Placeholder for maybe vizzes</h3>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/background2.png">
+				<div class="carousel-caption">
+					<h3>Placeholder for maybe vizzes</h3>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/background3.png">
+				<div class="carousel-caption">
+					<h3>Placeholder for maybe vizzes</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+
+		<!--- Jumbotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+				<h3>This project utilizes RL machine learning to train an algorithm 
+					by playing a simulation blackjack game 1 million times. The algorithm learned to implement 
+					strategies by being rewarded each time it won a hand. The visuals below highlight our key findings. </h3>
+			</div>
+			<div class="col-12 text-center">
+					<a href="github.com"><button type="button" 
+						class="btn btn-outline-secondary btn-lg text-center">Github Repository</button></a>
+			</div>
+		</div>
+	</div>
+
+	<!--- Three Column Section -->
+	<div class="container-fluid padding text-center">
+		<h3>Tools Used</h3>
+		<hr class="hr-50">
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<a href="https://www.python.org/" target="_blank"><i class="fab fa-python"></i></a>
+				<h3>Python 3</h3>
+				<p>Coded in Python</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<i class="fab fa-html5"></i>
+				<h3>HTML 5</h3>
+				<p>Foundational HTML</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<a href="https://getbootstrap.com/" target="_blank"><i class="fab fa-bootstrap"></i></a>
+				<h3>Bootstrap 4</h3>
+				<p>Built with Bootstrap</p></a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<i class="fab fa-css3-alt"></i>
+				<h3>CSS 3</h3>
+				<p>Designed with CSS</p>
+			</div>
+		</div>
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<a href = "https://signup.heroku.com/t/platform?c=70130000001xDpdAAE&gclid=CjwKCAjw8J32BRBCEiwApQEKgQrv8D8mOzv9N5h-iwBEUqD1klFkqjupdF-VCke-ia1Z8vnFwximdBoC5EAQAvD_BwE" target="_blank"><i class="fas fa-cloud"></i></a>
+				<h3>Heroku</h3>
+				<p>Hosted on Heroku</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<a href="https://www.tableau.com/" target="_blank"><i class="fas fa-braille"></i></a>
+				<h3>Tableau</h3>
+				<p>Visualized with Tableau</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<a href="https://www.javascript.com/" target="_blank"><i class="fab fa-js-square"></i></a>
+				<h3>Javascript</h3>
+				<p>Enhanced using Javascript</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<a href="https://www.github.com/" target="_blank"><i class="fab fa-github-alt"></i></a>
+				<h3>Github</h3>
+				<p>Coordinated with Github</p>
+			</div>
+		</div>
+	</div>
+	<hr>
+
+	<!--- Fixed background -->
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+			</div>
+		</div>
+	</figure>
+
+	<!--- Meet the team -->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Meet the Team</h1>
+			</div>
+			<hr>
+		</div>
+	</div>
+
+	<!--Team cards-->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-sm-6 col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="https://avatars1.githubusercontent.com/u/13006381?s=400&u=a69f929c6104aad5af3f1f7a6b99d173e31dd411&v=4" alt="profile picture">
+					<div class="card-body">
+						<h4 class="card-title">Joey Picca</h4>
+						<p class="card-text">Meteorologist, data scientist, and learner of machine learning.</p>
+						<a href="https://github.com/jpicca" class="btn btn-outline-secondary"><i
+								class="fab fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/jpicca/" class="btn btn-outline-secondary"><i
+								class="fab fa-linkedin"></i></a>		
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="https://ca.slack-edge.com/TP684H8C9-UPX7U2LKV-c9f7a26163f7-512"
+						alt="profile picture">
+					<div class="card-body">
+						<h4 class="card-title">Chris Armstrong</h4>
+						<p class="card-text">Security is my name, pain is my game.</p>
+						<a href="https://github.com/4Reference" class="btn btn-outline-secondary"><i
+								class="fab fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/christopher-armstrong-66260044/" class="btn btn-outline-secondary"><i
+								class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="https://ca.slack-edge.com/TP684H8C9-UPYSS42M7-23ac79fd3119-512"
+						alt="profile picture">
+					<div class="card-body">
+						<h4 class="card-title">Shane Gatenby</h4>
+						<p class="card-text">Visual specialist specializing in excellent visuals made specfically for a visual purpose.</p>
+						<a href="https://github.com/shanergy" class="btn btn-outline-secondary"><i
+								class="fab fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/shane-gatenby/" class="btn btn-outline-secondary"><i
+								class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="card">
+					<img class="card-img-top" 
+						src="https://avatars0.githubusercontent.com/u/56401348?s=400&u=699af4199a33a3ad2dc7b437f187d3f8f81966f5&v=4"
+						alt="profile picture">
+					<div class="card-body">
+						<h4 class="card-title">Ming Gao</h4>
+						<p class="card-text">Expert in tableau, python, machine learning, and kicking ass.</p>
+						<a href="https://github.com/gaom001" class="btn btn-outline-secondary"><i
+								class="fab fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/ming-gao-0562a132/" class="btn btn-outline-secondary"><i
+								class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="card">
+					<img class="card-img-top"
+						src="https://avatars1.githubusercontent.com/u/56699536?s=400&u=970762968e29dec3e0ba1cefb2adb62de45a15ec&v=4"
+						alt="profile picture">
+					<div class="card-body">
+						<h4 class="card-title">Austin Potts</h4>
+						<p class="card-text">Full stack data analyst, lover, fighter.</p>
+						<a href="https://github.com/Austin-Potts" class="btn btn-outline-secondary"><i
+								class="fab fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/austinpotts/" class="btn btn-outline-secondary"><i
+								class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="card">
+					<img class="card-img-top"
+						src="https://avatars3.githubusercontent.com/u/57381750?s=460&u=13fade5a3a0ec4dbb4939ba3d734af0bce6295e3&v=4"
+						alt="profile picture">
+					<div class="card-body">
+						<h4 class="card-title">Lansing Westlake</h4>
+						<p class="card-text">VP-Merchant Banking, former Auditor, aspiring Data Scientist</p>
+						<a href="https://github.com/Lpwestlake" class="btn btn-outline-secondary"><i
+								class="fab fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/lansing-westlake-4651b044/" class="btn btn-outline-secondary"><i
+								class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--- Footer -->
+	<footer>
+		<div class= "container-fluid padding">
+			<div class = "row text-center">
+				<div class="col-md-6">
+					<hr class="light"> 
+					<h5>About</h5>
+					<hr class="light"> 
+					<p>Stuff</p>
+					<p>Stuff</p>
+					<p>Stuff</p>
+				</div>
+				<div class="col-md-6">
+					<hr class="light"> 
+					<h5>Resources</h5>
+					<hr class="light"> 
+					<p>Stuff</p>
+					<p>Stuff</p>
+					<p>Stuff</p>
+				</div>
+				<div class="col-12">
+					<hr class="light-100"> 
+					<h5>&copy; Dream Team November 2019 DS Cohort</h5>
+				</div>
+	</div>
+	</div>
+	</footer>
+
+
+
+
+</body>
+
+</html>
