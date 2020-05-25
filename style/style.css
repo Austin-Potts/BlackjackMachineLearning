@@ -133,8 +133,8 @@ color: #563d7c;
   height:50%;
   border-radius: 50%;
   display: block;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
