@@ -139,7 +139,7 @@ footer {
   padding-top: 2rem;
 }
 .footer-text:hover{
-  color: white;
+  color: #d5d5d5;
 }
 hr.light {
   border-top: 1px solid #d5d5d5;
@@ -149,7 +149,7 @@ hr.light {
 }
 
 .footer-text{
-  color: #d5d5d5;
+  color: white;
 }
 
 hr.light-100 {
