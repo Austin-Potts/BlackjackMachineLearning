@@ -28,6 +28,44 @@ html, body {
 .carousel-inner img {
   width: 100%;
   height: 100%;
+  padding-right:3%;
+  padding-left:3%;
+}
+.viz{
+  padding-right:5%;
+  padding-left:5%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+a.carousel-control-next, a.carousel-control-prev {
+  width:3%;
+}
+
+li.slidebars{
+  background-color:black;
+}
+li.slidebars.active {
+  background-color: #8aa6a2;
 }
 
 .btn-outline-secondary:hover {
